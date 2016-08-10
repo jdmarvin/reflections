@@ -1,0 +1,20 @@
+What happens when you initialize a repository?
+creates a .git file.
+
+Why do you need a .git file?
+It tracks the meta data for all the commits and info
+for your Git repository.
+
+How is the staging area different from the working
+directory and the repository?
+The staging area is a holding directory for your commits.
+It provides a place to represent the working 
+directory files you would like to commit to the
+repository
+
+What value do you think the Staging Area offers?
+It gives you a place to combine/choose your files so
+if you make a logical change to two files but 
+not to the other ones the staging area allows you to
+combine only what is relevant.
+
