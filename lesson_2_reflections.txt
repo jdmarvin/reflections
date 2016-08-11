@@ -18,3 +18,49 @@ if you make a logical change to two files but
 not to the other ones the staging area allows you to
 combine only what is relevant.
 
+How can you use the staging area to make sure you have
+one commit per logical change?
+You can use git diff to see what changes have been 
+make to any file that has not been added to the staging
+area.  Then use git diff --staged to compare the files
+to the latest commit to make sure you want to commit
+the stagged files.
+
+What are some situations when branches would be helpful
+in keeping history organized?
+If you are working on completely new relases and do not 
+want to mess with the original or are working on changing
+a small or large part of the program that may or maynot
+make it to the final release.
+
+How would branches help?
+Branches give you the freedom to make drastic changes or
+experiment on the existing code without affecting the
+working program files.
+
+How do the diagrams help you visualize the branch structure?
+It helps to see reachability and how branches very from
+the the master or working program files.
+
+What is the result of merging two branches together?
+It will take the changes from one branch and apply them to the
+other (typically the master) branch using the original
+brnach starting point commit as a reference.
+
+Why do we represent it in the diagram the way we do?
+Because Git still knows what commits coorespond to each
+other so you can still compare them to their parents on
+either branch to see what was changed.
+
+What are the pros and cons of Git's automatic merging
+vs. always doing merges manually?
+Automatic merges helps same time and easily compares
+the two commits with the one before the branch
+origin.  One problem can be that the system does not 
+know what the code/content means or its purpose so
+it connot intelligently determine what to keep and 
+what not to keep.
+
+
+
+
