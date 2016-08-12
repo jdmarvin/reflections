@@ -36,4 +36,15 @@ would be easier and faster but the review process and length on
 messaging could be much longer with more opportunities for
 mistakes.
 
+When would you want to make changes in a separate branch 
+rather than directly in master?
+If you are wokring on a new feature adding elements or want to 
+change but do not want to affect the working files/project.
 
+What benefits does each approach have?
+Creating branches allows changes to be made without affecting 
+the masters files while changes can be made to the master files
+so each project can work independently. Continually updating 
+the master file keeps the file completely up-to-date without
+worrying about merging and changes happening at the same time
+in different places. 
